@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import HamburgerMenu from './Components/HamburgerMenu';
 import Navbar from './Components/Navbar';
-import
+
 
 function App() {
   return (
     <div>
-    <Navbar />
+    <HamburgerMenu />
     </div>
   );
 }
